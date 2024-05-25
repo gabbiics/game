@@ -62,7 +62,7 @@ public class Main extends JFrame {
         centerPanel.setOpaque(false);
 
         ImageIcon lightBulbIcon = new ImageIcon("logo.png");
-        Image lightBulbImage = lightBulbIcon.getImage().getScaledInstance(550, 550, Image.SCALE_SMOOTH);
+        Image lightBulbImage = lightBulbIcon.getImage().getScaledInstance(650, 650, Image.SCALE_SMOOTH);
         JLabel lightBulbLabel = new JLabel(new ImageIcon(lightBulbImage));
         lightBulbLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
